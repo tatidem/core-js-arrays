@@ -94,7 +94,6 @@ function findAllOccurrences(arr, item) {
  *    removeFalsyValues([ false, 0, NaN, '', undefined ]) => [ ]
  */
 function removeFalsyValues(arr) {
-  // eslint-disable-next-line no-undef
   return arr.filter((value) => !!value);
 }
 
